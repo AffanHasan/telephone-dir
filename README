@@ -144,3 +144,28 @@ variables for username, host and password:
 
 To get a full list of environment variables, simply add a line in your
 .openshift/action_hooks/build script that says "export" and push.
+
+
+											SRS - TELEPHONE DIRECTORY
+=========================================================================================================
+
+
+BASIC APPLICATION REQUIREMENTS
+------------------------------
+
+Support for multiple languages (English, Urdu, German etc)
+Support for multiple users
+Every user has his/her own address book.
+Name
+Telephone Number (complete with country/local dialing codes)
+Address (Not necessarily the street address)
+Comments (Any additional info such as relation ship of a person with the user)
+Support for the fast searching/retrieving of the information
+If multiple users knows a same person then there will be no duplication in the telephone number for that common person into the data base.
+The application should also have the PDF print feature so that user will be able to print out an address book.
+Application must expose the data through rest services so that the information can be used by different applications.
+
+REGISTERATION/LOGIN MECHANISM
+-----------------------------
+
+Users having FB accounts can register/login with their current FB accounts, users not having FB accounts can register/login by using registration wizard 
